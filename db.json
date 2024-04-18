@@ -1,14 +1,699 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+   "instrumentCode":1.XHKG,
+   "instrumentDetail":{
+      "uniqueCode":"1.XHKG",
+      "localCode":1,
+      "instrumentType":"EQTY",
+      "securityShortName":"CKH HOLDINGS",
+      "securityNameGccs":"長和",
+      "securityNameGb":"长和",
+      "exchangeCode":"XHKG",
+      "spreadTableCode":"01",
+      "currencyCode":"HKD",
+      "lotSize":500,
+      "previousClose":35600,
+      "listingDate":20150318,
+      "delistingDate":0,
+      "shortSellFlag":true,
+      "ccassFlag":true,
+      "dummySecurityFlag":false,
+      "testSecurityFlag":false,
+      "stampDutyFlag":true,
+      "freeText":,
+      "expectedPriceDP":3
+   },
+   "nominalPrice":35.55,
+   "netChange":-0.05,
+   "percentageChange":-0.14,
+   "openingPrice":35.45,
+   "dayHigh":35.8,
+   "dayLow":35.45,
+   "thirtyDaysHigh":40.9,
+   "thirtyDaysLow":35.35,
+   "fiftyTwoWeeksHigh":54.55,
+   "fiftyTwoWeeksLow":35.35,
+   "volume":1422078,
+   "turnover":50615246.5,
+   "bidAggregateQuantity":1048500,
+   "askAggregateQuantity":882000,
+   "casFlag":"Y",
+   "casRefPrice":0.0,
+   "casLowPrice":0.0,
+   "casHighPrice":0.0,
+   "posFlag":"Y",
+   "posLowPrice":40.9,
+   "posHighPrice":30.3,
+   "vcmFlag":"Y",
+   "tradeLogs":[
+      {
+         "time":1713405050801,
+         "quantity":500,
+         "price":35550,
+         "type":"B"
+      },
+      {
+         "time":1713405063968,
+         "quantity":1000,
+         "price":35550,
+         "type":"B"
+      },
+      {
+         "time":1713405063974,
+         "quantity":2000,
+         "price":35550,
+         "type":"B"
+      },
+      {
+         "time":1713405063975,
+         "quantity":20500,
+         "price":35550,
+         "type":"B"
+      },
+      {
+         "time":1713405064077,
+         "quantity":1500,
+         "price":35500,
+         "type":"B"
+      },
+      {
+         "time":1713405065009,
+         "quantity":1000,
+         "price":35500,
+         "type":"B"
+      },
+      {
+         "time":1713405095805,
+         "quantity":10000,
+         "price":35550,
+         "type":"A"
+      },
+      {
+         "time":1713405095806,
+         "quantity":9500,
+         "price":35550,
+         "type":"A"
+      },
+      {
+         "time":1713405147590,
+         "quantity":10000,
+         "price":35550,
+         "type":"B"
+      },
+      {
+         "time":1713405148926,
+         "quantity":1000,
+         "price":35550,
+         "type":"B"
+      }
+   ],
+   "bidDepths":[
+      {
+         "price":35550,
+         "quantity":18000,
+         "count":9
+      },
+      {
+         "price":35500,
+         "quantity":172000,
+         "count":41
+      },
+      {
+         "price":35450,
+         "quantity":76000,
+         "count":21
+      },
+      {
+         "price":35400,
+         "quantity":82000,
+         "count":14
+      },
+      {
+         "price":35350,
+         "quantity":425000,
+         "count":17
+      },
+      {
+         "price":35300,
+         "quantity":60500,
+         "count":23
+      },
+      {
+         "price":35250,
+         "quantity":5000,
+         "count":5
+      },
+      {
+         "price":35200,
+         "quantity":151500,
+         "count":18
+      },
+      {
+         "price":35150,
+         "quantity":5000,
+         "count":5
+      },
+      {
+         "price":35100,
+         "quantity":53500,
+         "count":10
+      }
+   ],
+   "askDepths":[
+      {
+         "price":35600,
+         "quantity":99500,
+         "count":16
+      },
+      {
+         "price":35650,
+         "quantity":149500,
+         "count":21
+      },
+      {
+         "price":35700,
+         "quantity":116000,
+         "count":22
+      },
+      {
+         "price":35750,
+         "quantity":132000,
+         "count":16
+      },
+      {
+         "price":35800,
+         "quantity":62500,
+         "count":13
+      },
+      {
+         "price":35850,
+         "quantity":124000,
+         "count":6
+      },
+      {
+         "price":35900,
+         "quantity":13500,
+         "count":4
+      },
+      {
+         "price":35950,
+         "quantity":165500,
+         "count":7
+      },
+      {
+         "price":36000,
+         "quantity":11500,
+         "count":4
+      },
+      {
+         "price":36050,
+         "quantity":8000,
+         "count":2
+      }
+   ],
+   "bidBrokerQueues":[
+      {
+         "type":"B",
+         "item":4458,
+         "brokerId":4458,
+         "brokerName":"Barclays Capital Asia Limited"
+      },
+      {
+         "type":"B",
+         "item":7366,
+         "brokerId":7366,
+         "brokerName":"Merrill Lynch Far East Limited"
+      },
+      {
+         "type":"B",
+         "item":8029,
+         "brokerId":8029,
+         "brokerName":"CLSA Limited"
+      },
+      {
+         "type":"B",
+         "item":8025,
+         "brokerId":8025,
+         "brokerName":"CLSA Limited"
+      },
+      {
+         "type":"B",
+         "item":8022,
+         "brokerId":8022,
+         "brokerName":"CLSA Limited"
+      },
+      {
+         "type":"B",
+         "item":9064,
+         "brokerId":9064,
+         "brokerName":"UBS Securities Hong Kong Limited"
+      },
+      {
+         "type":"B",
+         "item":9065,
+         "brokerId":9065,
+         "brokerName":"UBS Securities Hong Kong Limited"
+      },
+      {
+         "type":"B",
+         "item":8033,
+         "brokerId":8033,
+         "brokerName":"CLSA Limited"
+      },
+      {
+         "type":"B",
+         "item":8044,
+         "brokerId":8044,
+         "brokerName":"CLSA Limited"
+      },
+      {
+         "type":"S",
+         "item":1,
+         "brokerId":-1,
+         "brokerName":-1
+      },
+      {
+         "type":"B",
+         "item":4458,
+         "brokerId":4458,
+         "brokerName":"Barclays Capital Asia Limited"
+      },
+      {
+         "type":"B",
+         "item":4975,
+         "brokerId":4975,
+         "brokerName":"SG Securities (HK) Limited"
+      },
+      {
+         "type":"B",
+         "item":6999,
+         "brokerId":6999,
+         "brokerName":"China Investment Information Services Limited"
+      },
+      {
+         "type":"B",
+         "item":2311,
+         "brokerId":2311,
+         "brokerName":"Hang Seng Securities Limited"
+      },
+      {
+         "type":"B",
+         "item":8176,
+         "brokerId":8176,
+         "brokerName":"BOCI Securities Limited"
+      },
+      {
+         "type":"B",
+         "item":2311,
+         "brokerId":2311,
+         "brokerName":"Hang Seng Securities Limited"
+      },
+      {
+         "type":"B",
+         "item":5666,
+         "brokerId":5666,
+         "brokerName":"OCBC Securities Brokerage (Hong Kong) Limited"
+      },
+      {
+         "type":"B",
+         "item":9068,
+         "brokerId":9068,
+         "brokerName":"UBS Securities Hong Kong Limited"
+      },
+      {
+         "type":"B",
+         "item":5469,
+         "brokerId":5469,
+         "brokerName":"Morgan Stanley Hong Kong Securities Limited"
+      },
+      {
+         "type":"B",
+         "item":4975,
+         "brokerId":4975,
+         "brokerName":"SG Securities (HK) Limited"
+      },
+      {
+         "type":"B",
+         "item":6998,
+         "brokerId":6998,
+         "brokerName":"China Investment Information Services Limited"
+      },
+      {
+         "type":"B",
+         "item":1799,
+         "brokerId":1799,
+         "brokerName":"Bright Smart Securities International (H.K.) Limited"
+      },
+      {
+         "type":"B",
+         "item":9056,
+         "brokerId":9056,
+         "brokerName":"UBS Securities Hong Kong Limited"
+      },
+      {
+         "type":"B",
+         "item":8044,
+         "brokerId":8044,
+         "brokerName":"CLSA Limited"
+      },
+      {
+         "type":"B",
+         "item":9028,
+         "brokerId":9028,
+         "brokerName":"UBS Securities Hong Kong Limited"
+      },
+      {
+         "type":"B",
+         "item":6996,
+         "brokerId":6996,
+         "brokerName":"China Investment Information Services Limited"
+      },
+      {
+         "type":"B",
+         "item":9065,
+         "brokerId":9065,
+         "brokerName":"UBS Securities Hong Kong Limited"
+      },
+      {
+         "type":"B",
+         "item":8036,
+         "brokerId":8036,
+         "brokerName":"CLSA Limited"
+      },
+      {
+         "type":"B",
+         "item":7267,
+         "brokerId":7267,
+         "brokerName":"Virtu ITG Hong Kong Limited"
+      },
+      {
+         "type":"B",
+         "item":746,
+         "brokerId":746,
+         "brokerName":"IMC Asia Pacific Limited"
+      },
+      {
+         "type":"B",
+         "item":8444,
+         "brokerId":8444,
+         "brokerName":"ABN AMRO Clearing Hong Kong Limited"
+      },
+      {
+         "type":"B",
+         "item":8020,
+         "brokerId":8020,
+         "brokerName":"CLSA Limited"
+      },
+      {
+         "type":"B",
+         "item":7351,
+         "brokerId":7351,
+         "brokerName":"Merrill Lynch Far East Limited"
+      },
+      {
+         "type":"B",
+         "item":7351,
+         "brokerId":7351,
+         "brokerName":"Merrill Lynch Far East Limited"
+      },
+      {
+         "type":"B",
+         "item":8022,
+         "brokerId":8022,
+         "brokerName":"CLSA Limited"
+      },
+      {
+         "type":"B",
+         "item":6699,
+         "brokerId":6699,
+         "brokerName":"Interactive Brokers Hong Kong Limited"
+      },
+      {
+         "type":"B",
+         "item":8022,
+         "brokerId":8022,
+         "brokerName":"CLSA Limited"
+      },
+      {
+         "type":"B",
+         "item":8565,
+         "brokerId":8565,
+         "brokerName":"ABN AMRO Clearing Hong Kong Limited"
+      },
+      {
+         "type":"B",
+         "item":8443,
+         "brokerId":8443,
+         "brokerName":"ABN AMRO Clearing Hong Kong Limited"
+      },
+      {
+         "type":"B",
+         "item":8578,
+         "brokerId":8578,
+         "brokerName":"HSBC Securities Brokers (Asia) Limited"
+      }
+   ],
+   "askBrokerQueues":[
+      {
+         "type":"B",
+         "item":3436,
+         "brokerId":3436,
+         "brokerName":"Goldman Sachs (Asia) Securities Limited"
+      },
+      {
+         "type":"B",
+         "item":5323,
+         "brokerId":5323,
+         "brokerName":"J.P. Morgan Broking (Hong Kong) Limited"
+      },
+      {
+         "type":"B",
+         "item":5344,
+         "brokerId":5344,
+         "brokerName":"J.P. Morgan Broking (Hong Kong) Limited"
+      },
+      {
+         "type":"B",
+         "item":9057,
+         "brokerId":9057,
+         "brokerName":"UBS Securities Hong Kong Limited"
+      },
+      {
+         "type":"B",
+         "item":9057,
+         "brokerId":9057,
+         "brokerName":"UBS Securities Hong Kong Limited"
+      },
+      {
+         "type":"B",
+         "item":4499,
+         "brokerId":4499,
+         "brokerName":"Barclays Capital Asia Limited"
+      },
+      {
+         "type":"B",
+         "item":4974,
+         "brokerId":4974,
+         "brokerName":"SG Securities (HK) Limited"
+      },
+      {
+         "type":"B",
+         "item":757,
+         "brokerId":757,
+         "brokerName":"Jefferies Hong Kong Limited"
+      },
+      {
+         "type":"B",
+         "item":3448,
+         "brokerId":3448,
+         "brokerName":"Goldman Sachs (Asia) Securities Limited"
+      },
+      {
+         "type":"B",
+         "item":1045,
+         "brokerId":1045,
+         "brokerName":"IMC Asia Pacific Limited"
+      },
+      {
+         "type":"B",
+         "item":746,
+         "brokerId":746,
+         "brokerName":"IMC Asia Pacific Limited"
+      },
+      {
+         "type":"B",
+         "item":6699,
+         "brokerId":6699,
+         "brokerName":"Interactive Brokers Hong Kong Limited"
+      },
+      {
+         "type":"B",
+         "item":5323,
+         "brokerId":5323,
+         "brokerName":"J.P. Morgan Broking (Hong Kong) Limited"
+      },
+      {
+         "type":"B",
+         "item":8444,
+         "brokerId":8444,
+         "brokerName":"ABN AMRO Clearing Hong Kong Limited"
+      },
+      {
+         "type":"B",
+         "item":8448,
+         "brokerId":8448,
+         "brokerName":"ABN AMRO Clearing Hong Kong Limited"
+      },
+      {
+         "type":"B",
+         "item":8444,
+         "brokerId":8444,
+         "brokerName":"ABN AMRO Clearing Hong Kong Limited"
+      },
+      {
+         "type":"S",
+         "item":1,
+         "brokerId":-1,
+         "brokerName":-1
+      },
+      {
+         "type":"B",
+         "item":5337,
+         "brokerId":5337,
+         "brokerName":"J.P. Morgan Broking (Hong Kong) Limited"
+      },
+      {
+         "type":"B",
+         "item":5329,
+         "brokerId":5329,
+         "brokerName":"J.P. Morgan Broking (Hong Kong) Limited"
+      },
+      {
+         "type":"B",
+         "item":1836,
+         "brokerId":1836,
+         "brokerName":"Instinet Pacific Limited"
+      },
+      {
+         "type":"B",
+         "item":3436,
+         "brokerId":3436,
+         "brokerName":"Goldman Sachs (Asia) Securities Limited"
+      },
+      {
+         "type":"B",
+         "item":5346,
+         "brokerId":5346,
+         "brokerName":"J.P. Morgan Broking (Hong Kong) Limited"
+      },
+      {
+         "type":"B",
+         "item":1836,
+         "brokerId":1836,
+         "brokerName":"Instinet Pacific Limited"
+      },
+      {
+         "type":"B",
+         "item":757,
+         "brokerId":757,
+         "brokerName":"Jefferies Hong Kong Limited"
+      },
+      {
+         "type":"B",
+         "item":1048,
+         "brokerId":1048,
+         "brokerName":"IMC Asia Pacific Limited"
+      },
+      {
+         "type":"B",
+         "item":8446,
+         "brokerId":8446,
+         "brokerName":"ABN AMRO Clearing Hong Kong Limited"
+      },
+      {
+         "type":"B",
+         "item":8442,
+         "brokerId":8442,
+         "brokerName":"ABN AMRO Clearing Hong Kong Limited"
+      },
+      {
+         "type":"B",
+         "item":747,
+         "brokerId":747,
+         "brokerName":"IMC Asia Pacific Limited"
+      },
+      {
+         "type":"B",
+         "item":8564,
+         "brokerId":8564,
+         "brokerName":"ABN AMRO Clearing Hong Kong Limited"
+      },
+      {
+         "type":"B",
+         "item":6968,
+         "brokerId":6968,
+         "brokerName":"Yue Kun Research Limited"
+      },
+      {
+         "type":"B",
+         "item":6624,
+         "brokerId":6624,
+         "brokerName":"Jump Trading Hong Kong Limited"
+      },
+      {
+         "type":"B",
+         "item":5335,
+         "brokerId":5335,
+         "brokerName":"J.P. Morgan Broking (Hong Kong) Limited"
+      },
+      {
+         "type":"B",
+         "item":8444,
+         "brokerId":8444,
+         "brokerName":"ABN AMRO Clearing Hong Kong Limited"
+      },
+      {
+         "type":"B",
+         "item":8443,
+         "brokerId":8443,
+         "brokerName":"ABN AMRO Clearing Hong Kong Limited"
+      },
+      {
+         "type":"B",
+         "item":5345,
+         "brokerId":5345,
+         "brokerName":"J.P. Morgan Broking (Hong Kong) Limited"
+      },
+      {
+         "type":"B",
+         "item":9055,
+         "brokerId":9055,
+         "brokerName":"UBS Securities Hong Kong Limited"
+      },
+      {
+         "type":"B",
+         "item":9057,
+         "brokerId":9057,
+         "brokerName":"UBS Securities Hong Kong Limited"
+      },
+      {
+         "type":"B",
+         "item":5345,
+         "brokerId":5345,
+         "brokerName":"J.P. Morgan Broking (Hong Kong) Limited"
+      },
+      {
+         "type":"S",
+         "item":2,
+         "brokerId":-2,
+         "brokerName":-2
+      },
+      {
+         "type":"B",
+         "item":3448,
+         "brokerId":3448,
+         "brokerName":"Goldman Sachs (Asia) Securities Limited"
+      }
+   ],
+   "lastUpdateTime":1713405152446,
+   "broadcastKey":"1.XHKG"
 }
