@@ -1,5 +1,5 @@
 {
-   "instrumentCode":1.XHKG,
+   "instrumentCode":"1.XHKG",
    "instrumentDetail":{
       "uniqueCode":"1.XHKG",
       "localCode":1,
@@ -19,7 +19,7 @@
       "dummySecurityFlag":false,
       "testSecurityFlag":false,
       "stampDutyFlag":true,
-      "freeText":,
+      "freeText":"",
       "expectedPriceDP":3
    },
    "nominalPrice":35.55,
